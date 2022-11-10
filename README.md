@@ -1,7 +1,7 @@
 nreichen's dot files
 ====================
 
-This repository contains all of the configuration files in my home directory.
+This repository contains some of the configuration files in my home directory.
 
 ## Files of particular interest
 
