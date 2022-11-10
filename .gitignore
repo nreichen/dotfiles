@@ -1,1 +1,8 @@
-src/
+# Blocklist files/folders in same directory as the .gitignore file
+/*
+
+# Includelist some files
+!.gitignore
+!README.md
+!.bashrc
+!.bash_aliases
