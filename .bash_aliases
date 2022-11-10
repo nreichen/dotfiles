@@ -14,3 +14,14 @@ alias gb='git branch'
 alias gl='git log'
 alias gc='git commit -m'
 alias ga='git add'
+
+alias fortunecow='fortune | cowsay'
+
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# Add an "alert" alias for long running commands.  Use like so:
+#   sleep 10; alert
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(his>
