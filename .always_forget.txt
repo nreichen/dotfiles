@@ -1,0 +1,16 @@
+git clean -xdi				#Clean your repo, removing all untracked and git-ignored files
+
+#EXAMPLE
+Would remove the following item:
+  env/
+*** Commands ***
+    1: clean                2: filter by pattern    3: select by numbers    4: ask each
+    5: quit                 6: help
+What now> 1
+Removing env/
+
+
+# Shell Commands
+diff --side-by-side <FILE1> <FILE2>			# show diff for two files side by side 
+python3 -m venv env					# setting up python 3 virtual environment in project directory
+source env/bin/activate					# activating virtual environment
