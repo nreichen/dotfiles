@@ -4,6 +4,8 @@
 # Includelist some files
 !.gitignore
 !README.md
+!.
 !.bashrc
 !.bash_aliases
 !.always_forget.txt
+!.random-animal-fortune

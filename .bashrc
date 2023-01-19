@@ -104,10 +104,9 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-# Ceremonial random animal fortune upon shell launch B)
-if [ -x /usr/games/cowsay -a -x /usr/games/fortune ]; then
-   random_animal=$( find "/usr/share/cowsay/cows" -type f -print0 | shuf -z -n 1 | rev | cut -c5- | rev | cut -c24-)
-   fortune | cowsay -f "$random_animal"
+# run random-animal-fortune if it exists :)
+if [ -f ~/.random-animal-fortune ]; then
+    . ~/.random-animal-fortune
 fi
 
 # enable programmable completion features (you don't need to enable
