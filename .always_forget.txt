@@ -14,3 +14,6 @@ Removing env/
 diff --side-by-side <FILE1> <FILE2>			# show diff for two files side by side 
 python3 -m venv env					# setting up python 3 virtual environment in project directory
 source env/bin/activate					# activating virtual environment
+python3 -m http.server 8000				# run local HTTP server with python3, open http://localhost:8000/ in browser to access site
+
+tar zxf <FILE>						# unzip tar file
