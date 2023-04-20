@@ -14,12 +14,16 @@ Removing env/
 diff --side-by-side <FILE1> <FILE2>			# show diff for two files side by side 
 python3 -m venv env					# setting up python 3 virtual environment in project directory
 source env/bin/activate					# activating virtual environment
-python3 -m http.server 8000				# run local HTTP server with python3, open http://localhost:8000/ in browser to access site
+pip install -r requirements.txt				# installing requirements (if they exist) once venv is set up
 
+python3 -m http.server 8000				# run local HTTP server with python3, open http://localhost:8000/ in browser to access site
+mv <SOURCE> <DESTINATION>				# moving the location of a file or folder
 tar zxf <FILE>						# unzip tar file
 
 # Git Workflow
 git init						# initialize local repo
 git remote add origin <REMOTE-REPO-LINK>		# connect local repo to remote repo
 git remote -v						# check that local repo is connected to remote repo
+git add .						# add all files in current directory
+git commit -m "Initial commit"				# commit files
 git push -u origin main					# push commits to remote repo for the first time
